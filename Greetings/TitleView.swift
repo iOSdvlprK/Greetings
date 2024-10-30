@@ -19,6 +19,13 @@ struct TitleView: View {
     var angularGradient: AngularGradient {
         AngularGradient(colors: [.pink, .purple, .blue, .orange, .yellow], center: .center, angle: .zero)
     }
+    @State private var subtitle = "Exploring how views work"
+    let subtitles = [
+        "Exploring how views work",
+        "Learning how to bake",
+        "Programming recipes",
+        "A quest for knowledge"
+    ]
     
     var body: some View {
         HStack {
@@ -26,9 +33,14 @@ struct TitleView: View {
                 Text("Greetings")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
-                Text("Exploring how views work")
+                Text(subtitle)
                     .font(.headline)
                     .fontWeight(.thin)
+            }
+            .onTapGesture {
+                // change subtitle
+                subtitle = subtitles
+                    .randomElement() ?? "Exploring how views work"
             }
             
             Spacer()
