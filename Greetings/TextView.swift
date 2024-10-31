@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+/// This is the text view in the app whose colors can change randomly
+/// after being tapped.
 struct TextView: View {
     let text: String
     @State var color: Color
