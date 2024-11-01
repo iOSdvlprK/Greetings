@@ -23,8 +23,8 @@ struct TitleView: View {
     var angularGradient: AngularGradient {
         AngularGradient(colors: [.pink, .purple, .blue, .orange, .yellow], center: .center, angle: .zero)
     }
-    @State private var subtitle = "Exploring how views work"
-    let subtitles = [
+    @State private var subtitle: LocalizedStringKey = "Exploring how views work"
+    let subtitles: [LocalizedStringKey] = [
         "Exploring how views work",
         "Learning how to bake",
         "Programming recipes",
@@ -44,7 +44,7 @@ struct TitleView: View {
             .onTapGesture {
                 // change subtitle
                 subtitle = subtitles
-                    .randomElement() ?? "Exploring how views work"
+                    .randomElement() ?? LocalizedStringKey("Exploring how views work")
             }
             
             Spacer()

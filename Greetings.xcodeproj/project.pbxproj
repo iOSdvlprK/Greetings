@@ -18,6 +18,7 @@
 		D8A50ADC2CCBBCF900A48AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A50ADB2CCBBCF900A48AFE /* ContentView.swift */; };
 		D8A50ADE2CCBBCFC00A48AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A50ADD2CCBBCFC00A48AFE /* Assets.xcassets */; };
 		D8A50AE22CCBBCFC00A48AFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A50AE12CCBBCFC00A48AFE /* Preview Assets.xcassets */; };
+		D8F159B32CD50DEB0013374B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D8F159B22CD50DEB0013374B /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D8A50ADD2CCBBCFC00A48AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A50ADF2CCBBCFC00A48AFE /* Greetings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Greetings.entitlements; sourceTree = "<group>"; };
 		D8A50AE12CCBBCFC00A48AFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8F159B22CD50DEB0013374B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				D84C68312CCFD1B500F56D89 /* BackgroundView.swift */,
 				D88ABCC72CD3C3E300C09CED /* Launch Screen.storyboard */,
 				D88ABCC92CD3C71D00C09CED /* Greetings.png */,
+				D8F159B22CD50DEB0013374B /* Localizable.xcstrings */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -132,6 +135,9 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				he,
+				ar,
 			);
 			mainGroup = D8A50ACD2CCBBCF800A48AFE;
 			productRefGroup = D8A50AD72CCBBCF900A48AFE /* Products */;
@@ -149,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88ABCC82CD3C3E300C09CED /* Launch Screen.storyboard in Resources */,
+				D8F159B32CD50DEB0013374B /* Localizable.xcstrings in Resources */,
 				D8A50AE22CCBBCFC00A48AFE /* Preview Assets.xcassets in Resources */,
 				D88ABCCA2CD3C71D00C09CED /* Greetings.png in Resources */,
 				D8A50ADE2CCBBCFC00A48AFE /* Assets.xcassets in Resources */,
@@ -232,6 +239,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -286,6 +294,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
