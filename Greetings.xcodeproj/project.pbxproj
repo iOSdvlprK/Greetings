@@ -15,9 +15,13 @@
 		D88ABCC82CD3C3E300C09CED /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88ABCC72CD3C3E300C09CED /* Launch Screen.storyboard */; };
 		D88ABCCA2CD3C71D00C09CED /* Greetings.png in Resources */ = {isa = PBXBuildFile; fileRef = D88ABCC92CD3C71D00C09CED /* Greetings.png */; };
 		D8A50ADA2CCBBCF900A48AFE /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A50AD92CCBBCF900A48AFE /* GreetingsApp.swift */; };
-		D8A50ADC2CCBBCF900A48AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A50ADB2CCBBCF900A48AFE /* ContentView.swift */; };
+		D8A50ADC2CCBBCF900A48AFE /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A50ADB2CCBBCF900A48AFE /* GreetingsView.swift */; };
 		D8A50ADE2CCBBCFC00A48AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A50ADD2CCBBCFC00A48AFE /* Assets.xcassets */; };
 		D8A50AE22CCBBCFC00A48AFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A50AE12CCBBCFC00A48AFE /* Preview Assets.xcassets */; };
+		D8BE92782CD6681F006D96A8 /* LandscapeGreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE92772CD6681F006D96A8 /* LandscapeGreetingsView.swift */; };
+		D8BE927A2CD66B4A006D96A8 /* GreetingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE92792CD66B4A006D96A8 /* GreetingsTextView.swift */; };
+		D8BE927C2CD672D1006D96A8 /* RotatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE927B2CD672D1006D96A8 /* RotatableCircleView.swift */; };
+		D8BE927E2CD6774E006D96A8 /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE927D2CD6774E006D96A8 /* VerticalTitleView.swift */; };
 		D8F159B32CD50DEB0013374B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D8F159B22CD50DEB0013374B /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +35,14 @@
 		D88ABCC92CD3C71D00C09CED /* Greetings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Greetings.png; sourceTree = "<group>"; };
 		D8A50AD62CCBBCF900A48AFE /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A50AD92CCBBCF900A48AFE /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
-		D8A50ADB2CCBBCF900A48AFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8A50ADB2CCBBCF900A48AFE /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
 		D8A50ADD2CCBBCFC00A48AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A50ADF2CCBBCFC00A48AFE /* Greetings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Greetings.entitlements; sourceTree = "<group>"; };
 		D8A50AE12CCBBCFC00A48AFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8BE92772CD6681F006D96A8 /* LandscapeGreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeGreetingsView.swift; sourceTree = "<group>"; };
+		D8BE92792CD66B4A006D96A8 /* GreetingsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTextView.swift; sourceTree = "<group>"; };
+		D8BE927B2CD672D1006D96A8 /* RotatableCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCircleView.swift; sourceTree = "<group>"; };
+		D8BE927D2CD6774E006D96A8 /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
 		D8F159B22CD50DEB0013374B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,19 +76,15 @@
 		D8A50AD82CCBBCF900A48AFE /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				D8BE92762CD6626A006D96A8 /* Views */,
+				D8BE92752CD66237006D96A8 /* Model */,
 				D8A50AD92CCBBCF900A48AFE /* GreetingsApp.swift */,
-				D8A50ADB2CCBBCF900A48AFE /* ContentView.swift */,
-				D84AEEC62CCE683900CDFF94 /* TextView.swift */,
+				D8F159B22CD50DEB0013374B /* Localizable.xcstrings */,
 				D8A50ADD2CCBBCFC00A48AFE /* Assets.xcassets */,
 				D8A50ADF2CCBBCFC00A48AFE /* Greetings.entitlements */,
 				D8A50AE02CCBBCFC00A48AFE /* Preview Content */,
-				D84AEEC82CCE747600CDFF94 /* DataItemModel.swift */,
-				D84C682D2CCFC98200F56D89 /* TitleView.swift */,
-				D84C682F2CCFCBA500F56D89 /* MessagesView.swift */,
-				D84C68312CCFD1B500F56D89 /* BackgroundView.swift */,
 				D88ABCC72CD3C3E300C09CED /* Launch Screen.storyboard */,
 				D88ABCC92CD3C71D00C09CED /* Greetings.png */,
-				D8F159B22CD50DEB0013374B /* Localizable.xcstrings */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -91,6 +95,30 @@
 				D8A50AE12CCBBCFC00A48AFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8BE92752CD66237006D96A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D84AEEC82CCE747600CDFF94 /* DataItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8BE92762CD6626A006D96A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8A50ADB2CCBBCF900A48AFE /* GreetingsView.swift */,
+				D84AEEC62CCE683900CDFF94 /* TextView.swift */,
+				D84C682D2CCFC98200F56D89 /* TitleView.swift */,
+				D84C682F2CCFCBA500F56D89 /* MessagesView.swift */,
+				D84C68312CCFD1B500F56D89 /* BackgroundView.swift */,
+				D8BE92772CD6681F006D96A8 /* LandscapeGreetingsView.swift */,
+				D8BE92792CD66B4A006D96A8 /* GreetingsTextView.swift */,
+				D8BE927B2CD672D1006D96A8 /* RotatableCircleView.swift */,
+				D8BE927D2CD6774E006D96A8 /* VerticalTitleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +149,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					D8A50AD52CCBBCF800A48AFE = {
 						CreatedOnToolsVersion = 15.4;
@@ -171,10 +199,14 @@
 			files = (
 				D84AEEC92CCE747600CDFF94 /* DataItemModel.swift in Sources */,
 				D84AEEC72CCE683900CDFF94 /* TextView.swift in Sources */,
+				D8BE927A2CD66B4A006D96A8 /* GreetingsTextView.swift in Sources */,
+				D8BE927C2CD672D1006D96A8 /* RotatableCircleView.swift in Sources */,
 				D84C68302CCFCBA500F56D89 /* MessagesView.swift in Sources */,
 				D84C68322CCFD1B500F56D89 /* BackgroundView.swift in Sources */,
-				D8A50ADC2CCBBCF900A48AFE /* ContentView.swift in Sources */,
+				D8A50ADC2CCBBCF900A48AFE /* GreetingsView.swift in Sources */,
+				D8BE92782CD6681F006D96A8 /* LandscapeGreetingsView.swift in Sources */,
 				D8A50ADA2CCBBCF900A48AFE /* GreetingsApp.swift in Sources */,
+				D8BE927E2CD6774E006D96A8 /* VerticalTitleView.swift in Sources */,
 				D84C682E2CCFC98200F56D89 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +219,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -216,6 +249,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -249,6 +283,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -278,6 +313,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -306,6 +342,7 @@
 				CODE_SIGN_ENTITLEMENTS = Greetings/Greetings.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Greetings/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -343,6 +380,7 @@
 				CODE_SIGN_ENTITLEMENTS = Greetings/Greetings.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Greetings/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
