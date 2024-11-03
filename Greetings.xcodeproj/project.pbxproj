@@ -12,6 +12,7 @@
 		D84C682E2CCFC98200F56D89 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C682D2CCFC98200F56D89 /* TitleView.swift */; };
 		D84C68302CCFCBA500F56D89 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C682F2CCFCBA500F56D89 /* MessagesView.swift */; };
 		D84C68322CCFD1B500F56D89 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C68312CCFD1B500F56D89 /* BackgroundView.swift */; };
+		D88483D02CD7B89800869ADD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88483CF2CD7B89800869ADD /* MainView.swift */; };
 		D88ABCC82CD3C3E300C09CED /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88ABCC72CD3C3E300C09CED /* Launch Screen.storyboard */; };
 		D88ABCCA2CD3C71D00C09CED /* Greetings.png in Resources */ = {isa = PBXBuildFile; fileRef = D88ABCC92CD3C71D00C09CED /* Greetings.png */; };
 		D8A50ADA2CCBBCF900A48AFE /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A50AD92CCBBCF900A48AFE /* GreetingsApp.swift */; };
@@ -31,6 +32,7 @@
 		D84C682D2CCFC98200F56D89 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		D84C682F2CCFCBA500F56D89 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		D84C68312CCFD1B500F56D89 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		D88483CF2CD7B89800869ADD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D88ABCC72CD3C3E300C09CED /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D88ABCC92CD3C71D00C09CED /* Greetings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Greetings.png; sourceTree = "<group>"; };
 		D8A50AD62CCBBCF900A48AFE /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 				D8BE92792CD66B4A006D96A8 /* GreetingsTextView.swift */,
 				D8BE927B2CD672D1006D96A8 /* RotatableCircleView.swift */,
 				D8BE927D2CD6774E006D96A8 /* VerticalTitleView.swift */,
+				D88483CF2CD7B89800869ADD /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84AEEC92CCE747600CDFF94 /* DataItemModel.swift in Sources */,
+				D88483D02CD7B89800869ADD /* MainView.swift in Sources */,
 				D84AEEC72CCE683900CDFF94 /* TextView.swift in Sources */,
 				D8BE927A2CD66B4A006D96A8 /* GreetingsTextView.swift in Sources */,
 				D8BE927C2CD672D1006D96A8 /* RotatableCircleView.swift in Sources */,
