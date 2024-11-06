@@ -23,6 +23,28 @@
         }
       }
     },
+    "Arabic" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عربي"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arábica"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עֲרָבִית"
+          }
+        }
+      }
+    },
     "Are you ready to" : {
       "localizations" : {
         "ar" : {
@@ -67,6 +89,28 @@
         }
       }
     },
+    "English" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنجليزي"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inglés"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אנגלית"
+          }
+        }
+      }
+    },
     "Exploring how views work" : {
       "localizations" : {
         "ar" : {
@@ -107,6 +151,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ברכות"
+          }
+        }
+      }
+    },
+    "Hebrew" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللغة العبرية"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hebreo"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עִברִית"
           }
         }
       }
@@ -195,6 +261,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "תכנות מתכונים"
+          }
+        }
+      }
+    },
+    "Spanish" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسبانية"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Español"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ספרדית"
           }
         }
       }
