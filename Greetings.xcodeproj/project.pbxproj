@@ -25,6 +25,7 @@
 		D8BE927A2CD66B4A006D96A8 /* GreetingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE92792CD66B4A006D96A8 /* GreetingsTextView.swift */; };
 		D8BE927C2CD672D1006D96A8 /* RotatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE927B2CD672D1006D96A8 /* RotatableCircleView.swift */; };
 		D8BE927E2CD6774E006D96A8 /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE927D2CD6774E006D96A8 /* VerticalTitleView.swift */; };
+		D8C116712CDCDD4E002996D2 /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C116702CDCDD4E002996D2 /* GreetingsTip.swift */; };
 		D8F159B32CD50DEB0013374B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D8F159B22CD50DEB0013374B /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		D8BE92792CD66B4A006D96A8 /* GreetingsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTextView.swift; sourceTree = "<group>"; };
 		D8BE927B2CD672D1006D96A8 /* RotatableCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCircleView.swift; sourceTree = "<group>"; };
 		D8BE927D2CD6774E006D96A8 /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
+		D8C116702CDCDD4E002996D2 /* GreetingsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTip.swift; sourceTree = "<group>"; };
 		D8F159B22CD50DEB0013374B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 		D8A50AD82CCBBCF900A48AFE /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				D8C1166F2CDCDD22002996D2 /* Tips */,
 				D8BE92762CD6626A006D96A8 /* Views */,
 				D8BE92752CD66237006D96A8 /* Model */,
 				D8A50AD92CCBBCF900A48AFE /* GreetingsApp.swift */,
@@ -128,6 +131,14 @@
 				D853CBE62CD8F89100BD21AA /* LanguageOptionsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D8C1166F2CDCDD22002996D2 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				D8C116702CDCDD4E002996D2 /* GreetingsTip.swift */,
+			);
+			path = Tips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 				D8BE927A2CD66B4A006D96A8 /* GreetingsTextView.swift in Sources */,
 				D8BE927C2CD672D1006D96A8 /* RotatableCircleView.swift in Sources */,
 				D84C68302CCFCBA500F56D89 /* MessagesView.swift in Sources */,
+				D8C116712CDCDD4E002996D2 /* GreetingsTip.swift in Sources */,
 				D84C68322CCFD1B500F56D89 /* BackgroundView.swift in Sources */,
 				D8A50ADC2CCBBCF900A48AFE /* GreetingsView.swift in Sources */,
 				D8BE92782CD6681F006D96A8 /* LandscapeGreetingsView.swift in Sources */,

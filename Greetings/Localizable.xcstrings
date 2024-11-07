@@ -89,6 +89,9 @@
         }
       }
     },
+    "Click on text and discover more" : {
+
+    },
     "English" : {
       "localizations" : {
         "ar" : {
@@ -308,6 +311,9 @@
           }
         }
       }
+    },
+    "Text will be randomly generated and observe nice animations!" : {
+
     }
   },
   "version" : "1.0"
