@@ -202,6 +202,9 @@
         }
       }
     },
+    "Hello, world!" : {
+
+    },
     "Hi, welcome to Greetings!" : {
       "localizations" : {
         "ar" : {
